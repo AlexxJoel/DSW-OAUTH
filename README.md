@@ -14,6 +14,7 @@ npm run serve
 
 ### Evidece of the project
 
-[//]: # (Image with size)
-![image](/public/2024-04-17_03h34_39.png)
-![image](/public/2024-04-17_03h34_33.png)
+
+<img src="./images/2024-04-17_03h34_39.png" width="50%">
+<img src="./images/2024-04-17_03h50_24.png" width="50%">
+
