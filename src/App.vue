@@ -37,12 +37,12 @@ export default {
   name: "App",
   methods: {
     login() {
-      this.$auth.loginWithRedirect();
+      this.$auth.loginWithRedirect()
     },
     logout() {
       this.$auth.logout({
         logoutParams: {
-          returnTo: window.location.origin,
+          returnTo: this.$router.replace('/').catch(() => {}),
         },
       });
     },
